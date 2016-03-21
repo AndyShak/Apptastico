@@ -1,0 +1,286 @@
+@font-face {
+    font-family: Pacifico; /* Гарнитура шрифта */
+    src: url(../fonts/Pacifico.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: HelveticaNeue; /* Гарнитура шрифта */
+    src: url(../fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: HelveticaNeueBold; /* Гарнитура шрифта */
+    src: url(../fonts/HelveticaNeueBold.ttf); /* Путь к файлу со шрифтом */
+    font-weight: bold;
+}
+@font-face {
+    font-family: HelveticaNeueMedium; /* Гарнитура шрифта */
+    src: url(../fonts/HelveticaNeueMedium.otf); /* Путь к файлу со шрифтом */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 1200px;
+}
+.centr{
+    text-align: center;
+}
+header{
+    display: block;
+    width: 100%;
+    height: 586px;
+    background: url(../img/background-hr.jpg);
+
+}
+.header{
+    width: 1200px;
+    height: 586px;
+    margin: auto;
+    background: url(../img/mobile.jpg) no-repeat 12% 100%;
+}
+.logo{
+    display: block;
+    text-decoration: none;
+    font-family: Pacifico;
+    font-size: 31px;
+    color: #fff;
+    text-shadow: 0 2px  1px #000;
+    padding-top: 40px;
+    width: 200px;
+    float: left;
+    padding-left: 111px;
+}
+nav{
+    display: block;
+    width: 50%;
+    float: right;
+    padding-top:48px;
+
+}
+nav .menu{
+    float: right;
+    list-style: none;
+    margin-right: 93px ;
+}
+nav .menu li{
+    display: inline-block;
+    padding:7px 18px;
+}
+.menu .active{
+    background: #3d4850;
+    padding:7px 18px;
+    border-radius: 20px;
+    box-shadow: -1px -1px 1px black, 0px 1px 1px rgb(106, 131, 141);
+
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: HelveticaNeue;
+    text-shadow: 0 2px 1px #000;
+}
+.present{
+    width: 473px;
+    float: right;
+    font-family: HelveticaNeueMedium ;
+    margin-top:125px;
+    margin-right: 111px;
+
+}
+.present h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: HelveticaNeueBold ;
+}
+.description{
+    font-size: 16px;
+    color: #dcdcdc;
+    line-height: 1.5em;
+}
+.description:last-child{
+    color: #a0a0a0;
+}
+.links{
+    margin-top: 50px;
+    color: #fff;
+}
+.links button{
+    background: #409ad3;
+    font-size: 14px;
+    font-family: HelveticaNeueBold;
+    color: #fff;
+    padding:15px 45px ;
+    border-radius: 25px;
+    border-color: #a0cfea;
+    box-shadow: 0 5px 20px -2px #000;
+}
+.links span{
+    margin: 0 20px;
+}
+.links a{
+    background: url(../img/screen.jpg) no-repeat 0;
+    text-decoration: none;
+    padding-left: 25px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.stripe{
+    width: 100%;
+
+    height: 75px;
+    background: #ececec;
+    border-bottom: 2px solid #c3c3c3;
+}
+.labels{
+    width: 1200px;
+    margin: auto;
+}
+.client{
+    list-style: none;
+    display: inline-block;
+    padding-left: 35px;
+    margin: 18px 63px;
+    opacity: 0.4;
+}
+.main{
+    width: 100%;
+
+}
+.content {
+    width: 1200px;
+    margin: auto;
+}
+.service{
+    width: 320px;
+    color: #a4a4a4;
+    margin: 93px 0 0 70px;
+    float: left;
+
+}
+.service h4{
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    color: #4b5a65;
+    text-align: center;
+    padding-top: 25px;
+}
+.service button{
+    background: #569ed2;
+    padding: 12px 21px;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #abd0e9;
+   margin-top: 35px;
+}
+.slider{
+
+    width: 100%;
+    height: 315px;
+}
+.clear{
+    clear: left;
+}
+.blog{
+    width: 470px;
+    float: left;
+	margin: 80px 0 0 111px;
+   
+}
+.blog h3 {
+    color: #4c5b66;
+    font-size: 20px;
+    font-family: HelveticaNeue;
+    background: url(../img/rss.png) no-repeat 0 50%;
+    padding-left: 35px;
+
+
+
+}
+.news{
+    margin-top: 25px;
+    font-family: HelveticaNeue;
+}
+.news h5{
+    color: #5c5c5c;
+    font-size: 14px;
+}
+.news p{
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.5;
+}
+.img-border{
+    border: 1px solid #ededed;
+    padding: 5px;
+    float: left;
+    width: 135px;
+    height: auto;
+    margin-right: 30px;
+}
+.news p a{
+    text-decoration: none;
+    color: #3c92d0;
+}
+time{
+    color: #b0b0b0;
+    font-size: 11px;
+}
+.twitter-feed{
+    width: 400px;
+    float: left;
+    margin: 80px 0 0 125px;
+}
+.twitter-feed h3{
+    color: #4c5b66;
+    font-size: 20px;
+    font-family: HelveticaNeue;
+    background: url(../img/twitter.png) no-repeat 0 50%;
+    padding-left: 35px;
+}
+.twitter{
+    color: #888888;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.twitter a{
+    text-decoration: none;
+    color: #515151;
+}
+.twitter span{
+    color: #3c92d0;
+}
+.twitter-feed p a{
+	text-decoration: none;
+	font-size: 13px;
+	    color: #3c92d0;
+}
+footer{
+      margin: 15px auto;
+    display: block;
+    width: 975px;
+    border-top: 1px solid #e8e8e8;
+}
+footer p{
+    padding: 22px 0;
+    width: 50%;
+    float: left;
+}
+footer p a{
+	text-decoration:none;
+	color: #888888;
+}
+footer ul{
+    float: right;
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    padding: 22px 0;
+}
+
+
+
